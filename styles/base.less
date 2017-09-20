@@ -18,7 +18,7 @@ atom-text-editor, atom-text-editor {
 
 	.lines {
 		.cursor-line {
-			background-color: @syntax-gutter-background-color;
+			background-color: @yellow;
 		}
 		.syntax--inside-js.syntax--css.syntax--styled .syntax--property-name {
 			font-weight: bold;
@@ -31,18 +31,15 @@ atom-text-editor, atom-text-editor {
 
 		.line-number {
 			&.cursor-line {
-				background-color: #f1f3f5;
+				background-color: @yellow;
 				color: @syntax-gutter-text-color-selected;
+				opacity: 1;
 			}
 
 			&.cursor-line-no-selection {
 				color: @syntax-gutter-text-color-selected;
 			}
 		}
-	}
-
-	.lines .line.cursor-line {
-		background-color: #f8f9fa;
 	}
 
 	.gutter .line-number.folded,
