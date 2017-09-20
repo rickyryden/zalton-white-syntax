@@ -58,6 +58,7 @@ atom-text-editor, atom-text-editor {
 
   .selection .region {
 	background-color: @syntax-selection-color;
+	background-color: @yellow;
   }
 }
 
@@ -76,6 +77,8 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 .syntax--string {
   color: @syntax-text-color-light;
+  color: @pink;
+  color: @blue;
 }
 
 // Comments
@@ -121,6 +124,20 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   .syntax--property-value {
 	color: @syntax-text-color-light;
   }
+
+  .syntax--attribute-name,
+  .syntax--name {
+	  color: @pink;
+  }
+}
+
+// PHP
+
+.syntax--source.syntax--php {
+	.syntax--function,
+	.syntax--function-call {
+		color: @pink;
+	}
 }
 
 // Markdown
