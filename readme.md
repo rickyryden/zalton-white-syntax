@@ -1,6 +1,6 @@
 # zalton-white-syntax theme
 
-A light syntax theme for Atom.
+A light syntax theme for Atom. Based on [apex-syntax](https://github.com/apex/apex-syntax).
 
 ## Installation
 
