@@ -1,15 +1,15 @@
 {
   "name": "zalton-white-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A light syntax theme for Atom.",
   "keywords": [
-	"syntax",
-	"theme"
+    "syntax",
+    "theme"
   ],
   "repository": "https://github.com/rickyryden/zalton-white-syntax",
   "license": "MIT",
   "engines": {
-	"atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
