@@ -146,6 +146,31 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 	}
 }
 
+// Javascript
+
+.syntax--source.syntax--js {
+	.syntax--function {
+		color: @pink;
+	}
+
+	.syntax--constant {
+		color: @red;
+	}
+
+	.syntax--var,
+	.syntax--const {
+		color: @orange;
+	}
+
+	.syntax--keyword.syntax--control {
+		color: @red;
+	}
+
+	.syntax--other.syntax--module {
+		color: @cyan;
+	}
+}
+
 // Markdown
 
 .syntax--source.syntax--gfm {
