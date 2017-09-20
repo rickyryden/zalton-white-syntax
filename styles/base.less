@@ -31,7 +31,7 @@ atom-text-editor, atom-text-editor {
 
 	.line-number {
 	  &.cursor-line {
-		background-color: @syntax-gutter-background-color-selected;
+		background-color: #f1f3f5;
 		color: @syntax-gutter-text-color-selected;
 	  }
 
@@ -39,6 +39,11 @@ atom-text-editor, atom-text-editor {
 		color: @syntax-gutter-text-color-selected;
 	  }
 	}
+  }
+
+  // Current line background
+  .lines .line.cursor-line {
+	  background-color: #f8f9fa;
   }
 
   .gutter .line-number.folded,
